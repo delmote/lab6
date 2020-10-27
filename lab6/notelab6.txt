@@ -1,0 +1,28 @@
+Q1:
+La valeur de variable HOME est: HOME=/home/student
+
+Q2:
+Pour afficher ce contenu via la commande 'echo' on procède de la manière suivante: 'echo $PATH'.
+S'affiche: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+La variable PATH contient les chemins dans lesquels le 'shell' cherche les programme à lancer. 
+
+Q3:
+Voir le script process.sh
+ps -aux (c'est la commande qui liste les process en cours d'exécution)
+
+Q4:
+Pour déplacer le script process.sh dans le répertoire /opt, on d'abord changer de répertoire pour acceder ou répertoire opt: 'cd /opt'. 
+Ensuite on tape: sudo mv ~/Desktop/lab6/process.sh /opt/
+
+Q5:
+Commande pour exécuter un script à n'importe quel endroit.
+d'abord il faut ajouter le PATH avec 'export PATH=$PATH:/opt'
+Ensuite renter directement dans le  terminal process.sh
+
+Q6:
+En rentrant Il se passe  que le script est vite
+
+Q7 et Q8:
+En ouvrant le terminal c'est .bashrc qui s'exécute pour la première fois. Il faut donc la modifier en ajoutant à la fin du fichier .bashrc l'instruction '  export PATH="$PATH:/opt"  '
+vim .bashrc

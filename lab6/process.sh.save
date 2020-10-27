@@ -1,0 +1,8 @@
+Shell Scripts  
+•
+A shell script is just a file containing shell commands, but with a few 
+extras: 
+•
+The first line of a shell script should be a comment of the 
+following form: 
+
